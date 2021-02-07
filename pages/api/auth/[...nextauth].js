@@ -44,7 +44,6 @@ export default NextAuth({
     // signOut: '/api/auth/signout', // Displays form with sign out button
     // error: '/api/auth/error', // Error code passed in query string as ?error=
     // verifyRequest: '/api/auth/verify-request', // Used for check email page
-    newUser: 'https://github.com/apps/bitcampdev/installations/new/'
   },
 
   // Callbacks are asynchronous functions you can use to control what happens
