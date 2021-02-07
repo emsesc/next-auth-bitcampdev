@@ -39,6 +39,9 @@ export default function Form() {
 
   return (
     <Layout>
+    <h1>API Example</h1>
+      <p>1. Sign in with your Github Account</p>
+      <p><em>You must be signed in to see responses.</em></p>
     <form onSubmit={registerUser}>
       <label htmlFor="name">Bitlab   </label>
       <input id="name" name="name" type="text" autoComplete="name" required />
